@@ -1,0 +1,12 @@
+
+Service Unknown[2018-10-05 16:44:14] SERVICE ALERT: localhost;Current Load;UNKNOWN;SOFT;3;Parameter inconsistency: 15-minute "warning load" is greater than "critical load"
+Service Critical[2018-10-05 16:43:54] SERVICE ALERT: nginx;Disk Space;CRITICAL;SOFT;2;DISK CRITICAL - /run/user/1000/gvfs is not accessible: Permission denied
+Service Unknown[2018-10-05 16:43:14] SERVICE ALERT: localhost;Current Load;UNKNOWN;SOFT;2;Parameter inconsistency: 15-minute "warning load" is greater than "critical load"
+Service Critical[2018-10-05 16:42:54] SERVICE ALERT: nginx;Disk Space;CRITICAL;SOFT;1;DISK CRITICAL - /run/user/1000/gvfs is not accessible: Permission denied
+Service Unknown[2018-10-05 16:42:14] SERVICE ALERT: localhost;Current Load;UNKNOWN;SOFT;1;Parameter inconsistency: 15-minute "warning load" is greater than "critical load"
+Program Start[2018-10-05 16:41:34] Nagios 3.5.1 starting... (PID=35042)
+Program End[2018-10-05 16:41:34] Caught SIGTERM, shutting down...
+Program Start[2018-10-05 16:32:21] Nagios 3.5.1 starting... (PID=34751)
+Program End[2018-10-05 16:32:21] Caught SIGTERM, shutting down...
+Program Start[2018-10-05 16:26:16] Nagios 3.5.1 starting... (PID=34525)
+Program End[2018-10-05 16:26:16] Caught SIGTERM, shutting down...
