@@ -1,0 +1,12 @@
+---
+- hosts: servers
+  remote_user: server
+  become: yes
+  become_method: sudo
+  tasks:
+	- name: sshconfig
+	  sshd:
+		addgroups: sshusers
+		banner: "property of acme co"
+
+	  

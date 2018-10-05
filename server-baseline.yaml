@@ -1,0 +1,10 @@
+---
+- host: servers
+  remote_user: server
+  become: yes
+  become_method: sudo 
+  tasks:
+	- name update
+	  command: apt update && apt upgrade
+	  register: apt
+	

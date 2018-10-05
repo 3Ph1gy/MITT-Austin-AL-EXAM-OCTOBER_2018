@@ -1,0 +1,20 @@
+---
+- hosts: servers
+  remote_user: server
+  become: yes
+  become_method: sudo
+  tasks:
+	- name: install nginx
+	  apt:
+		name: "nginx"
+		state: latest
+
+	- name: nginx-conf
+	  nginx:
+		ssl:
+			enabled: true
+	- name: restart nginx
+	  service:
+		name: "nginx"
+		state: "restart"
+
